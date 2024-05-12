@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership</title>
+    <link rel="stylesheet" href="programs.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="grid">
+            <div class="image-section">
+                <img src="MuayThai.webp" alt="Image 1">
+            </div>
+            <div class="description">
+                <h2>MUAY THAI TRAINING<br /> $100/MONTH</h2>
+                <p>Our Muay Thai program uses the most tradition training methods straight from the heart of Thailand. Learn various striking methods of kicks, knees, elbows, and of course punches to become a unstoppable force. Training our Muay Thai program is none other than Tony Jaa world renowned martial artist and actor, This is a amazing program for self defense and turning your body into a weapon. Join the art of 8 limbs today!</p>
+                <button class="purchase-btn" onclick="purchase('Muay Thai')">Join our Muay Thai Membership</button>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="image-section">
+                <img src="Boxing.jpg" alt="Image 2">
+            </div>
+            <div class="description">
+                <h2>BOXING TRAINING<br /> $100/MONTH</h2>
+                <p>Boxing has been one of the best forms of self defense for decades and for good reason too. Our Boxing program will teach you all you want to learn and more. Become a swift and powerful striker with a strong defense game. Training our boxing class we have coach Russo who has been fighting his whole life. Coach Russo trains those who want to be future champions and those who just wish to improve their health. Join our boxing class today and lets get to training!</p>
+                <button class="purchase-btn" onclick="purchase('Boxing')">Join Our Boxing Membership!</button>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="image-section">
+                <img src="gym.jpg" alt="Image 3">
+            </div>
+            <div class="description">
+                <h2> OPEN GYM<br />$35/MONTH</h2>
+                <p>Our open gym is large and has 5 floors, we have everything needed to become the best version of yourself and more. Don’t believe us? You get a 1 day free trial to explore the gym and see just why we are the best around. Lets get big together as a team, join our gym membership today!</p>
+                <button class="purchase-btn" onclick="purchase('Open Gym')">Join Our Gym Membership!</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="links-container">
+        <a href="Aboutus.html" class="additional-link">About Us</a>
+        <a href="shop.html" class="additional-link">Shop</a>
+    </div>
+
+    <script>
+        function purchase(membership) {
+            alert("You have selected " + membership + " membership!");
+        }
+    </script>
+    <img class="fixed-image" src="flame.png" alt="flame_decal">
+</body>
+</html>
