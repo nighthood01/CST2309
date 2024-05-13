@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <script src="shop.js"></script>
+    <link href="shop.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="items" class="container">
+        <div class="item" data-price="30">
+            <img class="itemimg" src="gloves.jpg" alt="Gloves"
+            width="400px"
+            height="400px">
+            <p>Boxing Gloves $30</p>
+            <button onclick="addToCart('Boxing Gloves', 30)">Add to Cart</button>
+        </div>
+        <div class="item" data-price="15">
+            <img class="itemimg" src="Handwrap.jpg" alt="handwraps"
+            width="400px"
+            height="400px">
+            <p>Hand Wraps $15</p>
+            <button onclick="addToCart('Hand Wraps', 15)">Add to Cart</button>
+        </div>
+        <div class="item" data-price="10">
+            <img class="itemimg" src="mouthguard.webp" alt="mouth guard"
+            width="400px"
+            height="400px">
+            <p>Mouth Guard $10</p>
+            <button onclick="addToCart('Mouth Guard', 10)">Add to Cart</button>
+        </div>
+        <div class="item" data-price="40">
+            <img class="itemimg" src="shinguards.jpg" alt="shin guards"
+            width="400px"
+            height="400px">
+            <p>Shin Guards $60</p>
+            <button onclick="addToCart('Shin Guards', 60)">Add to Cart</button>
+        </div>
+        <div class="item" data-price="15">
+            <img class="itemimg" src="Wristwrap.jpg" alt="wrist wraps"
+            width="400px"
+            height="400px">
+            <p>Wrist Wraps $15</p>
+            <button onclick="addToCart('Wrist Wraps', 15)">Add to Cart</button>
+        </div>
+    </div>
+
+    <div id="cart" class="container">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items">
+        </ul>
+        <p>Total: $<span id="cart-total">0.00</span></p>
+        <button onclick="checkout()">Checkout</button>
+    </div>
+    <div class="links-container">
+        <a href="programs.html">Membership</a>
+        <a href="Aboutus.html">About us</a>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

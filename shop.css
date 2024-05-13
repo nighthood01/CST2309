@@ -1,0 +1,30 @@
+.itemimg {
+    border: 5px solid black;
+}
+body {
+    background-image: url('firebackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color:white;
+    font-family: "Lugrasimo";
+}
+.links-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+.links-container a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgba(161, 0, 0, 0.683); 
+}
